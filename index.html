@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage | Atom Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#about" class="nav-logo">Ma<span>ha</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#clients">Clients</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#statistics">Statistics</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <span class="close-btn" onclick="toggleMenu()"><i class="fas fa-times"></i></span>
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#portfolio" onclick="toggleMenu()">Portfolio</a>
+  <a href="#clients" onclick="toggleMenu()">Clients</a>
+  <a href="#work" onclick="toggleMenu()">Work</a>
+  <a href="#statistics" onclick="toggleMenu()">Statistics</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="about">
+  <div class="hero-inner">
+    <div class="hero-img-wrap">
+      <div class="hero-img-placeholder"><img src="portoolio.jpeg" alt="Maha"> </div>
+      
+    </div>
+    <div class="hero-text">
+      <p class="section-tag">Welcome to my portfolio</p>
+      <h1>Hello I'm<br><span>Maha Ahmed!</span></h1>
+      <p>I’m a Frontend Developer with 3+ years of experience in building and customizing e-commerce websites. I work with HTML, CSS, JavaScript, React.js, Shopify, CS-Cart, and WordPress to create responsive and user-friendly web solutions.</p>
+      <div class="hero-social">
+        <a href="https://www.linkedin.com/in/mahaahmed/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/MahaTaher"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/MaHaMeH88655403https://x.com/MaHaMeH88655403"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/maha.ahmed.12623"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/mahaahmed22061/"><i class="fab fa-instagram"></i></a>
+      </div>
+      <a href="#contact" class="btn-connect">Let's connect</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHO AM I -->
+<section id="who">
+  <div class="container">
+    <p class="section-tag">Who am I?</p>
+    <h2 class="section-title">About Me</h2>
+    <div class="who-inner">
+      <div class="who-text">
+        <h3>I’m Maha Ahmed, a Frontend Developer & Application Support Engineer</h3>
+        <p>Passionate about building modern e-commerce websites and improving user experience through clean design and functional solutions. Experienced in HTML, CSS, JavaScript, PHP, CS-Cart, and WordPress, with a strong background in frontend customization, technical support, and payment integrations.</p>
+        <p>I enjoy solving technical challenges, optimizing website performance, and creating smooth digital experiences for users. Always eager to learn new technologies and contribute to creative and dynamic projects.</p>
+        <div class="hero-social" style="margin-top:1.5rem;">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/maha.ahmed.12623"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/mahaahmed/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="who-skills">
+        <div class="skill-bar">
+          <div class="skill-label"><span>HTML &amp; CSS</span><span>95%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-label"><span>JavaScript</span><span>85%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:70%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-label"><span>PHP</span><span>80%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:98%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-label"><span>React JS</span><span>70%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:91%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-label"><span>WordPress</span><span>85%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:91%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-label"><span>CS-Cart</span><span>90%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:91%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-label"><span>SEO</span><span>90%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="width:91%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <p class="section-tag">Here's what I'm good at</p>
+    <h2 class="section-title">These are the services I offer</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-code"></i></div>
+        <h4>Frontend Development</h4>
+        <p>Building responsive and user-friendly web interfaces using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-pen-nib"></i></div>
+        <h4>E-commerce Development</h4>
+        <p>Creating and customizing e-commerce platforms using CS-Cart and WordPress solutions.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h4>Technical Support</h4>
+        <p>Providing technical support, fixing issues, and ensuring smooth website performance.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-envelope"></i></div>
+        <h4>API & Payment Integration</h4>
+        <p>Integrating payment gateways and handling API issues, testing, and debugging systems.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-palette"></i></div>
+        <h4>UI Customization</h4>
+        <p>Improving website design through CSS styling and layout adjustments based on requirements.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+        <h4>SEO & Content Optimization</h4>
+        <p>Optimizing website content and structure to improve search visibility and performance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="container">
+    <p class="section-tag">Check out my Portfolio</p>
+    <h2 class="section-title">Here's what I have done in the past</h2>
+    <div class="portfolio-grid">
+      <a class="portfolio-item" href="https://asiaegy.com/" target="_blank" rel="noopener noreferrer">
+        <img src="asia2.jpeg" alt="Portfolio project 1 screenshot" loading="lazy" width="800" height="600" />
+        <div class="portfolio-overlay"><i class="fas fa-external-link-alt"></i></div>
+      </a>
+      <a class="portfolio-item" href="https://via-tours.com/" target="_blank" rel="noopener noreferrer">
+        <img src="Viatours.png" alt="Portfolio project 2 screenshot" loading="lazy" width="800" height="600" />
+        <div class="portfolio-overlay"><i class="fas fa-external-link-alt"></i></div>
+      </a>
+      <a class="portfolio-item" href="https://germansupplements.de/" target="_blank" rel="noopener noreferrer">
+        <img src="GermanSupplements.jpeg" alt="Portfolio project 3 screenshot" loading="lazy" width="800" height="600" />
+        <div class="portfolio-overlay"><i class="fas fa-external-link-alt"></i></div>
+      </a>
+      <a class="portfolio-item" href="https://docs.lutastore.cloud/" target="_blank" rel="noopener noreferrer">
+        <img src="luata.png" alt="Portfolio project 4 screenshot" loading="lazy" width="800" height="600" />
+        <div class="portfolio-overlay"><i class="fas fa-external-link-alt"></i></div>
+      </a>
+      
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section id="clients">
+  <div class="container">
+    <p class="section-tag" style="text-align:center">My latest clients</p>
+    <h2 class="section-title" style="text-align:center; margin-bottom:2.5rem;">Brands I've worked with</h2>
+    <div class="clients-row">
+      <div class="client-logo">Asiaegy</div>
+      <div class="client-logo">Germansupplements</div>
+    </div>
+  </div>
+</section>
+
+<!-- APPLICATION SUPPORT CLIENTS -->
+<section id="application-support">
+  <div class="container">
+    <p class="section-tag">Application support</p>
+    <h2 class="section-title">Clients I've supported as application support</h2>
+    <div class="portfolio-grid portfolio-grid--support">
+      <a class="portfolio-item" href="https://tijarahub.com/" target="_blank" rel="noopener noreferrer">
+        <img src="tijara.png" alt="Asiaegy — application support" loading="lazy" width="800" height="600" />
+        <div class="portfolio-overlay"><i class="fas fa-external-link-alt"></i></div>
+      </a>
+      <a class="portfolio-item" href="https://thebabygarage.com/" target="_blank" rel="noopener noreferrer">
+        <img src="babygarage.png" alt="Via Tours — application support" loading="lazy" width="800" height="600" />
+        <div class="portfolio-overlay"><i class="fas fa-external-link-alt"></i></div>
+      </a>
+      <a class="portfolio-item" href="https://nadatalaat.com/" target="_blank" rel="noopener noreferrer">
+        <img src="nadatalat.png" alt="German Supplements — application support" loading="lazy" width="800" height="600" />
+        <div class="portfolio-overlay"><i class="fas fa-external-link-alt"></i></div>
+      </a>
+      <a class="portfolio-item" href="https://officesupply.sa/en/" target="_blank" rel="noopener noreferrer">
+        <img src="officsuply.png" alt="German Supplements — application support" loading="lazy" width="800" height="600" />
+        <div class="portfolio-overlay"><i class="fas fa-external-link-alt"></i></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WORK EXPERIENCE -->
+<section id="work">
+  <div class="container">
+    <p class="section-tag">My work experience</p>
+    <h2 class="section-title">Here's what I did before freelancing</h2>
+    <div class="timeline" style="max-width:700px; margin-top:2rem;">
+      <div class="timeline-item">
+        <div class="timeline-company">Al Otaiba Group of Companies · Dubai</div>
+        <div class="timeline-date">Jun 2025 – Jan 2026</div>
+        <div class="timeline-role">Frontend Developer (Part-time)</div>
+        <div class="timeline-desc">HTML, CSS, JavaScript, PHP, CS-Cart.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-company">Asia · Cairo</div>
+        <div class="timeline-date">Nov 2024 – Jul 2025</div>
+        <div class="timeline-role">Frontend Developer (Part-time)</div>
+        <div class="timeline-desc">HTML, CSS, JavaScript, PHP, CS-Cart, WordPress.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-company">Sonotrix</div>
+        <div class="timeline-date">Oct 2023 – Present</div>
+        <div class="timeline-role">Application Support Engineer</div>
+        <div class="timeline-desc">HTML, CSS, JavaScript, PHP, Laravel, CS-Cart, React.js.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-company">iSpace Technology</div>
+        <div class="timeline-date">Dec 2020 – Dec 2022</div>
+        <div class="timeline-role">Content Creator / SEO Specialist</div>
+        <div class="timeline-desc">WordPress, Google Ads, Ahrefs.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-company">TechTouch</div>
+        <div class="timeline-date">Oct 2020</div>
+        <div class="timeline-role">Freelance Full Stack Developer</div>
+        <div class="timeline-desc">HTML, CSS, PHP, CodeIgniter.</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Internships -->
+ <!-- INTERNSHIPS & TRAINING -->
+<section id="training">
+  <div class="container">
+    <p class="section-tag">Learning & growth</p>
+    <h2 class="section-title">Internships &amp; Training</h2>
+    <div class="timeline" style="max-width:700px; margin-top:2rem;">
+      <div class="timeline-item">
+        <div class="timeline-company">Digital Marketing Agency</div>
+        <!--div class="timeline-date">[Month Year – Month Year]</div-->
+        <div class="timeline-role">SEO Specialist Intern</div>
+        <div class="timeline-desc">
+          <ul>
+            <li>Conducted keyword research and competitor analysis.</li>
+            <li>Optimized product and category pages for on-page SEO.</li>
+            <li>Performed technical SEO audits using Google Search Console.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-company">Information Technology Institute (ITI) · Assiut Branch</div>
+        <div class="timeline-date">Nov 2018 – Feb 2019</div>
+        <div class="timeline-role">Full Stack Development Track (Open Source)</div>
+        <div class="timeline-desc">Angular, PHP, Laravel.</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- STATISTICS -->
+<section id="statistics">
+  <div class="container">
+    <div class="stats-grid">
+      <div>
+        <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+        <div class="stat-num" data-target="2">0</div>
+        <div class="stat-label">Finished Projects</div>
+      </div>
+      <div>
+        <div class="stat-icon"><i class="fas fa-smile"></i></div>
+        <div class="stat-num" data-target="2">0</div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+      <div>
+        <div class="stat-icon"><i class="fas fa-bug"></i></div>
+        <div class="stat-num" data-target="199">0</div>
+        <div class="stat-label">Bugs Fixed</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <p class="section-tag">Get in touch</p>
+    <h2 class="section-title">Have Any Questions?</h2>
+    <div class="contact-simple">
+      <div class="contact-item">
+        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+        <div class="contact-detail">
+          <h5>Phone</h5>
+          <p><a href="tel:+881111222333">(+20) 1143474882</a></p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+        <div class="contact-detail">
+          <h5>Email</h5>
+          <p><a href="mailto:name@mydomain.com">mahasoliman22061@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <div class="contact-detail">
+          <h5>Address</h5>
+          <p><a href="#" target="_blank" rel="noopener noreferrer">Nasr City, Cairo, Egypt</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-social">
+    <a href="https://www.linkedin.com/in/mahaahmed/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/MahaTaher"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/MaHaMeH88655403https://x.com/MaHaMeH88655403"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/maha.ahmed.12623"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/mahaahmed22061/"><i class="fab fa-instagram"></i></a>
+  </div>
+  
+</footer>
+
+<script>
+  // Mobile menu
+  function toggleMenu() {
+    document.getElementById('mobileNav').classList.toggle('open');
+  }
+
+  // Counter animation
+  const counters = document.querySelectorAll('.stat-num[data-target]');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseInt(el.dataset.target);
+        let count = 0;
+        const step = Math.ceil(target / 50);
+        const interval = setInterval(() => {
+          count = Math.min(count + step, target);
+          el.textContent = count;
+          if (count >= target) clearInterval(interval);
+        }, 30);
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+  counters.forEach(c => observer.observe(c));
+
+  // Smooth nav highlight
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 100) current = s.id;
+    });
+    navLinks.forEach(a => {
+      a.style.color = a.getAttribute('href') === '#' + current ? '#d4c9ff' : '';
+    });
+  });
+</script>
+</body>
+</html>
